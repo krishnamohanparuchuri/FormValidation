@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name ="myForm">
+     Email :<input type="text" name ="email"placeholder="test@hotmail.com">
+     <span class="error hide"></span><br>
+     Password :<input type="text" name ="password" placeholder="Password">
+     <span class="error hide"></span><br>
+     Repeat Password :<input type="text" name ="repeatpassword" placeholder="Repeat the Password">
+     <span class="error hide"></span><br>
+     First Name :<input type="text" name ="firstname" placeholder="First Name">
+     <span class="error hide"></span><br>
+     Middle Name :<input type="text" name ="middlename" placeholder ="Middle Name">
+     <span class="error hide"></span><br>
+     Last Name :<input type="text" name ="lastname" placeholder="Last Name">
+     <span class="error hide"></span><br>
+     <div class="row">Gender :
+         <label class="label"><input type ="radio" name ="gender" value ="Male">Male<br></label>
+     <label class ="label"><input type="radio" name ="gender" value ="Female">Female<br></label>
+     </div>
+     Age: <input type="number" name ="age" step="1" min ="1" max="85" placeholder ="enter the age">
+     <span class="error hide"></span><br>
+     <input type ="submit" value="Sign Up">
+    </form>
+
+
+    <script src="validation.js"> </script>
+</body>
+</html>
