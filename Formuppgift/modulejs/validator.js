@@ -2,7 +2,7 @@
  function printError(elemId, hintMsg) {
     document.getElementById(elemId).innerHTML = hintMsg;
 }
-
+  // we are going to declare the variables from the dom
  // Defining a function to validate form 
  function validateForm() {
     // Retrieving the values of form elements 
